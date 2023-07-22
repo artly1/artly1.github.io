@@ -41,11 +41,11 @@
 <meta property="og:title" content="artly的小窝">
 <meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="artly的小窝">
-<meta property="og:description" content="下面写关于自己的内容">
+<meta property="og:description" content="哈喽😄，进来的朋友~首先感谢您来到我博客，再是您访问了这个页面来了解。  鄙人杨世豪，现就读于天津中德应用技术大学21级物联网工程专业。 中文常用昵称“夏漱石”，因为高中期间喜欢比较喜欢夏目漱石老师，再加上喜欢动漫，爱看fate，对历史人物人很有感触，就给自己取了这么一个名字，但后来这个名字容易撞车，就用自己另一个喜欢的动漫角色取了“artly1”这个名字。本人并不优秀，就是普普通通的一名学生，">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2023-06-27T03:14:54.731Z">
-<meta property="article:modified_time" content="2023-06-27T03:14:54.731Z">
+<meta property="article:published_time" content="2023-07-18T01:36:16.268Z">
+<meta property="article:modified_time" content="2023-07-18T01:36:16.268Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -58,21 +58,21 @@
   --color-site-body: #f4f4f4;
   --color-site-bg: #f4f4f4;
   --color-site-inner: #fff;
-  --color-site-footer: #666;
+  --color-site-footer: #fff;
   --color-card: #fff;
   --color-text: #444;
   --color-block: #f6f6f6;
-  --color-inlinecode: #c74f00;
-  --color-codeblock: #fff7ea;
-  --color-h1: #3a3a3a;
-  --color-h2: #3a3a3a;
-  --color-h3: #333;
+  --color-inlinecode: #d56d28;
+  --color-codeblock: #f6f6f6;
+  --color-h1: #444;
+  --color-h2: #444;
+  --color-h3: #444;
   --color-h4: #444;
-  --color-h5: #555;
-  --color-h6: #666;
+  --color-h5: #444;
+  --color-h6: #444;
   --color-p: #444;
   --color-list: #666;
-  --color-list-hl: #30ad91;
+  --color-list-hl: #36ac91;
   --color-meta: #888;
   --color-read-bkg: #e0d8c8;
   --color-read-post: #f8f1e2;
@@ -94,7 +94,7 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -146,7 +146,7 @@ body.modal-active {
   }
 }
 a {
-  color: #2092ec;
+  color: #2196f3;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.28s ease;
@@ -268,103 +268,6 @@ button {
   position: relative;
   overflow: hidden;
   margin-bottom: -100px;
-}
-.cover-wrapper .cover-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-}
-.cover-wrapper .cover-bg.lazyload:not(.loaded) {
-  opacity: 0;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-}
-.cover-wrapper .cover-bg.lazyload.loaded {
-  animation-delay: 0s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  animation-name: fadeIn;
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
 }
 .cover-wrapper .cover-body {
   z-index: 1;
@@ -715,6 +618,71 @@ button {
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
 }
+.cover-wrapper #parallax-window {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.parallax-mirror {
+  animation-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-name: fadeIn;
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
 @font-face {
   font-family: 'UbuntuMono';
   src: url("https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf");
@@ -928,7 +896,7 @@ button {
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   -ms-transition: all 0.28s ease;
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header .switcher >li >a:hover {
   border: none;
@@ -1108,7 +1076,7 @@ ul.m-pc >li>a {
 }
 ul.m-pc >li>a:active,
 ul.m-pc >li>a.active {
-  border-bottom: 2px solid #3dd9b6;
+  border-bottom: 2px solid #44d7b6;
 }
 ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
@@ -1247,7 +1215,7 @@ ul.list-v >li>a:hover {
 }
 .l_header ul.nav-list-h>li >a:active,
 .l_header ul.nav-list-h>li >a.active {
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header ul.nav-list-h>li:hover>a {
   color: var(--color-list-hl);
@@ -1628,7 +1596,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1687849801294),
+    lastupdate: new Date(1690027529701),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -1638,7 +1606,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           friendlyShow: true
         },
         runtime: {
-          data: "2020/01/01",
+          data: "2022/12/04",
           unit: "天"
         }
       }
@@ -1648,7 +1616,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       fancybox: {"css":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fancyapps/ui/dist/fancybox.css","js":"https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fancyapps/ui/dist/fancybox.umd.js"},
       
       aplayer: {
-        id: 3175833810,
+        id: 8512858148,
         enable:true
       },
       
@@ -2061,7 +2029,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin end-->
     <!-- front-matter body_begin begin -->
     <!-- front-matter body_begin end -->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2076,7 +2044,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
+            <img no-lazy class='logo' src='https://gcore.jsdelivr.net/gh/artly1/Image/202307151153532.png'/>
           
           
           
@@ -2177,13 +2145,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
+                href="/about/" title="关于我"
                   
                   
                   
                     active-action="action-about"
                   >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
+                  <i class='fa-solid fa-info-circle fa-fw'></i>关于我
                 </a>
                 
               </li>
@@ -2194,13 +2162,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://blog.csdn.net/artly1?spm=1000.2115.3001.5343" title="更多"
+                target="_blank" rel="noopener" href="https://blog.csdn.net/artly1?spm=1000.2115.3001.5343" title="CSDN"
                   
                   
                   
                     active-action="action-https:blogcsdnnetartly1?spm=1000211530015343"
                   >
-                  <i class='fa-solid fa-user fa-fw'></i>更多
+                  <i class='fa-solid fa-user fa-fw'></i>CSDN
                 </a>
                 
               </li>
@@ -2315,13 +2283,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
+                href="/about/" title="关于我"
                   
                   
                   
                     active-action="action-about"
                   >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
+                  <i class='fa-solid fa-info-circle fa-fw'></i>关于我
                 </a>
                 
               </li>
@@ -2332,13 +2300,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://blog.csdn.net/artly1?spm=1000.2115.3001.5343" title="更多"
+                target="_blank" rel="noopener" href="https://blog.csdn.net/artly1?spm=1000.2115.3001.5343" title="CSDN"
                   
                   
                   
                     active-action="action-https:blogcsdnnetartly1?spm=1000211530015343"
                   >
-                  <i class='fa-solid fa-user fa-fw'></i>更多
+                  <i class='fa-solid fa-user fa-fw'></i>CSDN
                 </a>
                 
               </li>
@@ -2362,9 +2330,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper docs search' style="display: none;">
+      <div id="half" class='cover-wrapper docs search' style="display: ;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
+  <div id="parallax-window"></div>
 
 <div class='cover-body'>
   <div class='top'>
@@ -2396,39 +2364,39 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <p>主页</p>
             </a>
           
-            <a href="/"
+            <a href="/categories/"
               
               
-              active-action="action-home">
+              active-action="action-categories">
               <p>分类</p>
             </a>
           
-            <a href="/"
+            <a href="/tags/"
               
               
-              active-action="action-home">
+              active-action="action-tags">
               <p>标签</p>
             </a>
           
-            <a href="/"
+            <a href="/contributors/"
               
               
-              active-action="action-home">
+              active-action="action-contributors">
               <p>友链</p>
             </a>
           
-            <a href="/"
+            <a href="/about/"
               
               
-              active-action="action-home">
-              <p>更多</p>
+              active-action="action-about">
+              <p>关于我</p>
             </a>
           
-            <a href="/"
+            <a target="_blank" rel="noopener" href="https://blog.csdn.net/artly1?spm=1000.2115.3001.5343"
               
               
-              active-action="action-home">
-              <p>关于我</p>
+              active-action="action-https:blogcsdnnetartly1?spm=1000211530015343">
+              <p>CSDN</p>
             </a>
           
         
@@ -2477,7 +2445,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <p>下面写关于自己的内容</p>
+    <p>哈喽😄，进来的朋友~<br>首先感谢您来到我博客，再是您访问了这个页面来了解。</p>
+<hr>
+<p>鄙人杨世豪，现就读于天津中德应用技术大学21级物联网工程专业。</p>
+<p>中文常用昵称“夏漱石”，因为高中期间喜欢比较喜欢夏目漱石老师，再加上喜欢动漫，爱看fate，对历史人物人很有感触，就给自己取了这么一个名字，但后来这个名字容易撞车，就用自己另一个喜欢的动漫角色取了“artly1”这个名字。<br>本人并不优秀，就是普普通通的一名学生，对于自己的未来依旧很迷茫，但怎么说呢，一步一步走走看吧。</p>
+<p>目前这个博客主要用来总结自己系统学习的相关内容，内容也没有多深奥，主要是总结方便自己之后回忆。所以有巨佬请勿喷😵——以上。</p>
+<p>Ps：如果想要交换友链的话，那就在下边留下你的信息。</p>
 
   </div>
   
@@ -2581,6 +2554,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- pjax占位 -->
   </div>
 
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
   <!-- Custom Files side begin -->
   
   <!-- Custom Files side end -->
@@ -2603,14 +2580,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.add("show");
+    l_header.classList.remove("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="none";
-      cover_wrapper.style.display="none";
+      cover_wrapper.id="half";
+      cover_wrapper.style.display="";
       scroll_down.style.display="none";
     
   
@@ -2637,7 +2614,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       list-max-height='320px'
       server='netease'
       type='playlist'
-      id='3175833810'
+      id='8512858148'
       list-folded='true'>
     </meting-js>
   
@@ -2651,8 +2628,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="social-wrapper" itemprop="about" itemscope itemtype="http://schema.org/Thing">
           
             
-              <a href="/atom.xml"
-                class="social fas fa-rss flat-btn"
+              <a href="https://blog.csdn.net/artly1?spm=1000.2115.3001.5343"
+                class="social far fa-user flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer" itemprop="url">
                 
@@ -2661,7 +2638,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
             
               <a href="mailto:893711905@qq.com"
-                class="social fas fa-envelopes flat-btn"
+                class="social far fa-envelope" flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer" itemprop="url">
                 
@@ -2688,7 +2665,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         Use
         <a href="https://github.com/volantis-x/hexo-theme-volantis/#5.8.0" target="_blank" class="codename">Volantis</a>
-        as theme
+        as theme, total visits
+          <span id="busuanzi_value_site_pv"><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
+          times
+        
       
     
       
@@ -2847,7 +2827,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             Metings.forEach((item, index) => {
               const aplayerItem = item.aplayer; if(!aplayerItem) return;
               const rightAplayerCheck = 'true' === 'true'
-                && item.meta.id === '3175833810';
+                && item.meta.id === '8512858148';
               if(rightAplayerCheck && typeof RightMenuAplayer !="undefined") RightMenuAplayer.checkAPlayer();
               if(aplayerItem.events.events.play.every(item => {return item.name !== 'messagePlay'})) {
                 aplayerItem.on('play', function messagePlay() {
@@ -2951,6 +2931,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+  <script defer src="https://gcore.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
 
 <!-- optional -->
 
@@ -3034,6 +3016,59 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+
+
+  <script>
+  let imgs = ["https://gcore.jsdelivr.net/gh/artly1/Image/202307150054766.jpeg"];
+  let index = 0;
+  let IntervalParallax = null;
+
+  function parallax(){
+    let ParallaxWindow = document.querySelector("#parallax-window");
+    
+      ParallaxWindow = document.querySelector("html");
+    
+    Parallax.window = ParallaxWindow;
+    Parallax.options.fade = 1500;
+    Parallax.cache = 1;
+    next_parallax();
+    Parallax.init();
+    if (imgs.length>1) {
+      IntervalParallax = setInterval(function () {
+        next_parallax();
+      }, '10000');
+    }
+  }
+
+  function next_parallax() {
+    if (typeof Parallax == "undefined") {
+      return
+    }
+    
+    if (imgs.length>=1) {
+      Parallax.options.src = imgs[index % imgs.length];
+      Parallax.start();
+      index++;
+      if (Parallax.cache) {
+        fetch(imgs[index % imgs.length] +"?t=" + new Date().getTime());
+        if (index == imgs.length) {
+          Parallax.cache = 0;
+        }
+      }
+    }
+  }
+  var runningOnBrowser = typeof window !== "undefined";
+  var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+  if (!isBot) {
+    volantis.js('/js/plugins/parallax.js').then(()=>{
+      parallax()
+    })
+    volantis.pjax.send(()=>{
+      clearInterval(IntervalParallax)
+    },"clearIntervalParallax");
+    volantis.pjax.push(parallax);
+  }
+</script>
 
 
 
@@ -3211,7 +3246,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"artly的小窝","url":"http://yoursite.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://yoursite.com/","sameAs":["https://github.com/volantis-x"],"description":"test description"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://yoursite.com/","name":"artly的小窝"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"artly的小窝","url":"http://yoursite.com/","keywords":null,"description":"test description","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://yoursite.com/","description":"test description"},"publisher":{"@type":"Organization","name":"artly的小窝","url":"http://yoursite.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://yoursite.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"关于","description":"test description","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com/about/index.html"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://yoursite.com/"},"publisher":{"@type":"Organization","name":"artly的小窝","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://yoursite.com/about/index.html","wordCount":0,"datePublished":"2023-06-27T03:14:54.731Z","dateModified":"2023-06-27T03:14:54.731Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"artly的小窝","url":"http://yoursite.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://yoursite.com/","sameAs":["https://github.com/volantis-x"],"description":"test description"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://yoursite.com/","name":"artly的小窝"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"artly的小窝","url":"http://yoursite.com/","keywords":null,"description":"test description","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://yoursite.com/","description":"test description"},"publisher":{"@type":"Organization","name":"artly的小窝","url":"http://yoursite.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://yoursite.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"关于","description":"test description","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com/about/index.html"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://yoursite.com/"},"publisher":{"@type":"Organization","name":"artly的小窝","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://yoursite.com/about/index.html","wordCount":0,"datePublished":"2023-07-18T01:36:16.268Z","dateModified":"2023-07-18T01:36:16.268Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
