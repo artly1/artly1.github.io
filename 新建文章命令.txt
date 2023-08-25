@@ -1,0 +1,10 @@
+hexo new "学生管理系统-node.js下载安装与npm简单使用"
+
+title: 第一篇
+date: 2023-04-03 23:13:53
+tags: 
+  - [测试]
+  - [好吧]
+categories:
+  - [分类A]
+  - [分类B]
